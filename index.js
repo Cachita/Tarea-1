@@ -58,5 +58,5 @@ const Mascota2 = {
 }
 const Familia = (Mama, Papa, Hijo1, Hijo2, Hijo3, Hija, Mascota1, Mascota2)
 const miArray = [];
-Array.prototype.push.apply(miArray, Familia);
+miArray.push(Familia);
 console.log(miArray)
